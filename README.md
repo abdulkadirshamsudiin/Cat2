@@ -8,36 +8,30 @@ The programming concepts in this document are abstraction, method overloading, e
 # Question 1A
 ### 1. Student.java
 **Concepts:** This demonstrates Encapsulation, Getters, and Setters  
-- defines a `Student` class with private attributes `name` and `grade`.  
-- Uses **getters and setters** to control access to private attributes.  
-- Ensures the grade value remains within a valid range (0-100).
+- First we define a `Student` Class with 2 private attributes `name` and `grade`.
+- We use **getters and setters** to control the access to the private attributes.
+- next we Ensure the grade value always remains within a valid range ie (0-100).
 
 
 ## Question 1B
 ### 2. Main.java
-**Concepts:** Method Overloading, Polymorphism (Method Overriding)  
-- Contains a `MathOperations` class demonstrating **method overloading** with multiple `multiply()` methods.  
-- Includes an `Animal` class with a `makeSound()` method, overridden in the `Dog` and `Cat` subclasses.  
-- Demonstrates **runtime polymorphism** by calling overridden methods dynamically.
+**Concepts:** This question covers Polymorphism(Method overriding) and Method Overloading.
+- This consists of `MathOperations` class shoing **method overleading** with multiple `multiply()` methods.
+- it also includes an `Animal` class with a `makeSound()` method,which are overridden in the `Dog` and `Cat` subclass.
+- This shows **runtime polymorphism** as it calls overridden methods dynamiclly.
  
 ## Question 2A
 ### 3. TestAppliance.java
-**Concepts:** Abstraction (Abstract Classes)  
-- Implements an abstract class `Appliance` with an abstract method `turnOn()`.  
-- Subclasses `Fan` and `TV` provide specific implementations of `turnOn()`.  
-- Demonstrates **abstraction** by enforcing method implementation in child classes.
-- 
+- **Concepts:** This is to show Abstraction (Abstract Classes)
+- First implement an abstract class `appliance` with an abstract method `trunOn()`.
+- then the Subclass `Fan` and `TV` provide specific implementations of `runOn`.
+- Then we Demonstrate **abstraction* by enforcing method implementation in the child classes.
+
+
 ## Question 2B
 ### 4. DivisionExample.java
-**Concepts:** Exception Handling, User Input  
-- This program takes two integers from the user and divides them.  
-- It handles the `ArithmeticException` to prevent division by zero.  
-- Uses a `Scanner` object to take user input.   
+- **Concepts:** This covers Expectation handling and user input
+- The program will take 2 integers from the user and will divide them
+- then it will handle the `arthmeticExpectation` to prevent division by zero.
+- we use the `Scanner` object to take the user input.
 
-## How to Run the Programs
-1. Compile the files using `javac <filename>.java`.  
-2. Run the compiled class using `java <classname>`.  
-3. Example:  
-   ```sh
-   javac Main.java
-   java Main
