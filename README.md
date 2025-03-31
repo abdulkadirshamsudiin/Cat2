@@ -1,11 +1,12 @@
 # Cat2
 this is cat 2 file
 # Java Programs Explanation
+The programming concepts in this document are abstraction, method overloading, exception handling, and encapsulation.
 
-This repository contains four Java programs demonstrating different programming concepts such as abstraction, method overloading, exception handling, and encapsulation.
 
 ## Files and Their Explanations
 
+### this is quesion 2B
 ### 1. DivisionExample.java
 **Concepts:** Exception Handling, User Input  
 - This program takes two integers from the user and divides them.  
